@@ -1,0 +1,206 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+.body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.header{
+	width: 100%;
+	padding: 60px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-color: #252525;
+	
+	
+}
+
+.m{
+	list-style: none;
+	background-color: #252525;
+	text-align: center;
+	
+}
+
+.l{
+	display: inline-block;
+	padding:20px;
+	transition: all ease-in-out 250ms;
+}
+
+.la{
+	color: rgb(151, 141, 141);
+	text-decoration:none;
+	
+}
+
+.l:hover{
+	background-color: rgb(170, 160, 160);
+}
+
+.head{
+	padding:0;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	
+}
+
+.spread{
+	transform: translate(0);
+	
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	
+	
+}
+
+.subtitulo{
+	text-align: center;
+	font-weight: 300;
+	color: #476cc2;
+	margin-bottom: 60px;
+	font-size: 40px;
+	margin-top: 60px;
+
+}
+
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+
+.n-service{
+	margin-bottom: 15px;
+	color: #476cc2;
+	
+	
+}
+
+
+.informacion{
+	line-height:120%;
+	margin-left:5%;
+}
+
+.pestanas{
+	margin-left:5%;
+	
+	
+}
+
+.m2{
+	margin-left: 50px;
+	margin-bottom:60px;
+	margin-top:20px;
+	
+	
+}
+.m3{
+	margin-left: -10%;
+	margin-bottom:60px;
+	margin-top:20px;
+	
+}
+
+.izq{
+	margin-left: 90px;
+	overflow: hidden;
+ 	cursor: pointer;
+ 
+}
+
+.izq:hover  {
+ 	opacity: .7;
+}
+
+.der{
+	margin-left: 90px;
+	overflow: hidden;
+ 	cursor: pointer;
+	
+}
+.der:hover  {
+ 	opacity: .7;
+}
+
+footer{
+	background-image: linear-gradient(120deg, #476cc2 0%, #070707 100%);
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-bottom: 115px;
+	padding-left:80px;
+	
+}
+.contact-me{
+	width: 40%;
+	color: white;
+	
+}
+
+.name{
+	font-weight: 500;
+	font-size: 25px;
+	
+}
+
+.social-media{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right:80px;
+	
+	
+}
+.social-media-icon{
+	display: inline-block;
+	margin-left:20 px;
+	width:60px;
+	height:60px;
+	border: 1 px solid white;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	
+	
+}
+
+.social-media-icon:hover{
+	background: white;
+	color: pink;
+	
+}
+	
+.social-media-icon i{
+	font-size: 30px;
+	line-height: 60px;
+	
+}	 
+.img{
+	border-color: #476cc2;
+}
+
+
+
+
+	
